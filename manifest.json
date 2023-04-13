@@ -1,0 +1,14 @@
+{
+    "name": "Injector",
+    "description": "Inject Your Custom JavaScript and CSS To any Website",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.form.jotform.com/*"
+            ],
+            "js": ["app.js"]
+        }
+    ]
+}
